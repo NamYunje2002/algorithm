@@ -22,8 +22,8 @@ int main() {
 	cin.tie(0);
 	cin >> n;
 	for (int i = 0; i < n; i++) cin >> arr[i];
+	
 	lis[0] = arr[0];
-  
 	for (int i = 1; i < n; i++) {
 		if (arr[i] > lis[length]) {
 			lis[++length] = arr[i];
@@ -35,7 +35,6 @@ int main() {
 			lis[idx] = arr[i];
 		}
 	}
-  
 	cout << length + 1 << "\n";
   
 	for (int i = n - 1; i > -1; i--) {
@@ -44,7 +43,6 @@ int main() {
 			length--;
 		}
 	}
-  
 	while (!S.empty()) {
 		cout << S.top() << " ";
 		S.pop();
