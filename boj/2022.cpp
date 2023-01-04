@@ -1,4 +1,4 @@
-// https://www.acmicpc.net/problem/2022
+/* https://www.acmicpc.net/problem/2022 */
 
 #include <iostream>
 #include <cmath>
