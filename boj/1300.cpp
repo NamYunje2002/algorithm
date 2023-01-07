@@ -1,4 +1,4 @@
-/* https://www.acmicpc.net/problem/1300 */
+// https://www.acmicpc.net/problem/1300 
 
 #include <iostream>
 
