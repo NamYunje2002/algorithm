@@ -16,6 +16,7 @@ int main() {
 		for (int j = 0; j < i; j++) 
 			if (arr[i] > arr[j]) 
 				dp[i] = max(dp[i], dp[j] + 1);
+		
 		length = max(dp[i], length);
 	}
 	cout << length << "\n";
@@ -23,5 +24,6 @@ int main() {
 	for (int i = n - 1; i > -1; i--) 
 		if (dp[i] == length) 
 			ans[--length] = arr[i];
+	
 	for (int i = 0; i < l; i++) cout << ans[i] << " ";
 }
