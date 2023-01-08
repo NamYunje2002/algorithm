@@ -24,7 +24,6 @@ int main() {
 
 
 
-
 // STL Lower Bound 미사용
 #include <iostream>
 
