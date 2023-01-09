@@ -1,3 +1,3 @@
 Profile
 -------
-> [boj](https://www.acmicpc.net/user/namyunje)
+> BOJ : [namyunje](https://www.acmicpc.net/user/namyunje)
