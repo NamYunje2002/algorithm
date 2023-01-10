@@ -11,9 +11,8 @@ int main() {
 	cin.tie(0);
 	dp[0] = 1;
 	cin >> n >> k;
-	for (int i = 1; i <= n; i++) 
-		cin >> arr[i];
-
+	for (int i = 1; i <= n; i++) cin >> arr[i];
+	
 	for (int i = 1; i <= n; i++) 
 		for (int j = arr[i]; j <= k; j++) 
 			dp[j] += dp[j - arr[i]];
