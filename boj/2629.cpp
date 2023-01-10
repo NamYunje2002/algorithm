@@ -7,8 +7,8 @@
 	- 접근
 	3가지 경우로 나눈 뒤 반복
 	1. 추를 사용하지 않음 (weight)
-	2. 추를 왼쪽(유리구슬이 올려져 있는 곳)에 올림 (weight + wArr[idx])
-	3. 추를 오른쪽(유리구슬이 올려져 있지 않은 곳)에 올림 (abs(weight - wArr[idx]))
+	2. 추를 왼쪽(유리구슬이 올려져 있는 곳)에 올림 (weight + c[idx])
+	3. 추를 오른쪽(유리구슬이 올려져 있지 않은 곳)에 올림 (abs(weight - c[idx]))
 
 	- 참고사항
 	주어진 유리구슬의 무게가 15,000 초과이면인확인 불가능 (추의 개수 <= 30, 추의 무게 <= 500) → N 출력
@@ -19,29 +19,29 @@
 
 using namespace std;
 
-int wCnt, mCnt, marble, wArr[32], dp[32][15002];
+int n, wCnt, w, c[32], dp[32][15002];
 
 void func(int idx, int weight) {
-	if (idx > wCnt || dp[idx][weight]) return;
+	if (idx > n || dp[idx][weight]) return;
 	dp[idx][weight] = 1;
 	func(idx + 1, weight);
-	func(idx + 1, weight + wArr[idx]);
-	func(idx + 1, abs(weight - wArr[idx]));
+	func(idx + 1, weight + c[idx]);
+	func(idx + 1, abs(weight - c[idx]));
 }
 
 int main() {
 	ios::sync_with_stdio(0);
 	cin.tie(0);
-	cin >> wCnt;
-	for (int i = 0; i < wCnt; i++) cin >> wArr[i];
+	cin >> n;
+	for (int i = 0; i < n; i++) cin >> c[i];
 
 	func(0, 0);
 
-	cin >> mCnt;
-	while (mCnt--) {
-		cin >> marble;
-		if (marble > 15000) cout << "N ";
-		else if (dp[wCnt][marble]) cout << "Y ";
+	cin >> wCnt;
+	while (wCnt--) {
+		cin >> w;
+		if (w > 15000) cout << "N ";
+		else if (dp[n][w]) cout << "Y ";
 		else cout << "N ";
 	}
 }
