@@ -1,10 +1,13 @@
 // https://www.acmicpc.net/source/53731724
 /*
 
+    - 테이블 정의
     dp[n][k] → n색상환에서 k개의 색을 고르는 경우의 수
+
+    - 참고사항
     n색상환에서 하나의 색을 고르는 경우의 수 → 1
     k가 n/2보다 커질 때의 경우의 수 (k > n/2) → 0
-    
+
 */
 
 #include <iostream>
