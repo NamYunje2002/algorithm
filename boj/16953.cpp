@@ -85,8 +85,8 @@ int main() {
 	cin.tie(0);
 	cin >> a >> b;
 	dfs(a, 1);
-	if 
-		(ans == 10000002) cout << -1;
+	if (ans == 10000002) 
+		cout << -1;
 	else 
 		cout << ans;
 }
