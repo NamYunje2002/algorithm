@@ -26,7 +26,7 @@
 ### 3주차 - 그리디, 브루트포스
 |번호|제목|코드|
 |:---:|:---:|:---:|
-|1107|[리모컨](https://www.acmicpc.net/problem/1107)||
+|1107|[리모컨](https://www.acmicpc.net/problem/1107)|[코드](https://github.com/NamYunje2002/algorithm/blob/main/boj/1107.cpp)|
 |16953|[A → B](https://www.acmicpc.net/problem/16953)|[코드](https://github.com/NamYunje2002/algorithm/blob/main/boj/16953.cpp)|
 |13975|[파일 합치기 3](https://www.acmicpc.net/problem/13975)||
 |1083|[소트](https://www.acmicpc.net/problem/1083)||
