@@ -28,6 +28,6 @@
 |:---:|:---:|:---:|
 |1107|[리모컨](https://www.acmicpc.net/problem/1107)|[코드](https://github.com/NamYunje2002/algorithm/blob/main/boj/1107.cpp)|
 |16953|[A → B](https://www.acmicpc.net/problem/16953)|[코드](https://github.com/NamYunje2002/algorithm/blob/main/boj/16953.cpp)|
-|13975|[파일 합치기 3](https://www.acmicpc.net/problem/13975)||
+|13975|[파일 합치기 3](https://www.acmicpc.net/problem/13975)|[코드](https://github.com/NamYunje2002/algorithm/blob/main/boj/13975.cpp)|
 |1083|[소트](https://www.acmicpc.net/problem/1083)|[코드](https://github.com/NamYunje2002/algorithm/blob/main/boj/1083.cpp)|
 |18111|[마인크래프트](https://www.acmicpc.net/problem/18111)|[코드](https://github.com/NamYunje2002/algorithm/blob/main/boj/18111.cpp)|
