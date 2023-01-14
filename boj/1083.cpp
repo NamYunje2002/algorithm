@@ -23,8 +23,7 @@ int main() {
 				idx = j;
 			}
 		}
-		
-		// max가 이미 제일 앞에 있는 경우
+		// max가 이미 제일 앞에 있는 경우 건너뛰기
 		if (idx == i) 
 			continue;
 		
