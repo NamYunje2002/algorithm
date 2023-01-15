@@ -1,10 +1,10 @@
-프로필
+Profile
 -------
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=namyunje)](https://solved.ac/namyunje)
 
 <br>
 
-알고리즘 스터디
+Algorithm Study (23.01 ~ )
 ----------------
 ### 1주차 - 분할정복
 |번호|제목|코드|
