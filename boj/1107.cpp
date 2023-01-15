@@ -24,16 +24,16 @@ int main() {
 	
 	//  i번째 채널로 이동 후, +버튼 또는 -버튼 사용
 	for (int i = 1; i < 1000001; i++) {
-		int t = i, flag = 0, cnt = 0;
+		int t = i, isBroken = 0, cnt = 0;
 		while (t > 0) {
 			if (btn[t % 10]) {
-				flag = 1;
+				isBroken = 1;
 				break;
 			}
 			t /= 10;
 			cnt++;
 		}
-		if (flag) continue;
+		if (isBroken) continue;
 		cnt += abs(n - i);
 		ans = min(ans, cnt);
 	}
