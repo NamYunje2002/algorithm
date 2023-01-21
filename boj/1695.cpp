@@ -4,8 +4,7 @@
 
 using namespace std;
 
-int n, dp[5001][5001];
-string s1[5001], s2[5001];
+int n, dp[5001][5001], s1[5001], s2[5001];
 
 int main() {
 	ios::sync_with_stdio(0);
