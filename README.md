@@ -41,7 +41,7 @@ Algorithm Study (23.01 ~ )
 |9252|[LCS 2](https://www.acmicpc.net/problem/9252)|[코드](https://github.com/NamYunje2002/algorithm/blob/main/boj/9252.cpp)|
 |11726|[2×n 타일링](https://www.acmicpc.net/problem/11726)|[코드](https://github.com/NamYunje2002/algorithm/blob/main/boj/11726.cpp)|
 
-### 5주차 - 백트래
+### 5주차 - 백트래킹
 |번호|제목|코드|
 |:---:|:---:|:---:|
 |2661|[좋은수열](https://www.acmicpc.net/problem/2661)|
