@@ -46,6 +46,6 @@ Algorithm Study (23.01 ~ )
 |:---:|:---:|:---:|
 |2661|[좋은수열](https://www.acmicpc.net/problem/2661)|
 |15651|[N과 M (3)](https://www.acmicpc.net/problem/15651)|[코드](https://github.com/NamYunje2002/algorithm/blob/main/boj/15651.cpp)|
-|15661|[링크와 스타트](https://www.acmicpc.net/problem/15661)|
+|15661|[링크와 스타트](https://www.acmicpc.net/problem/15661)|[코드](https://github.com/NamYunje2002/algorithm/blob/main/boj/15661.cpp)|
 |14888|[연산자 끼워넣기](https://www.acmicpc.net/problem/14888)|[코드](https://github.com/NamYunje2002/algorithm/blob/main/boj/14888.cpp)|
 |1799|[비숍](https://www.acmicpc.net/problem/1799)|
