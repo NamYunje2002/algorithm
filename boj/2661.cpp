@@ -15,22 +15,22 @@ bool chk(string s) {
 	return true;
 }
 
-void solve(string s, int k) {
+void solve(string s) {
 	if (isFind) return;
-	if (s.size() == k) {
+	if (s.size() == n) {
 		ans = s;
 		isFind = 1;
 		return;
 	}
 	for (int i = 1; i <= 3; i++) 
 		if (chk(s + to_string(i))) 
-			solve(s + to_string(i), k);
+			solve(s + to_string(i));
 }
 
 int main() {
 	ios::sync_with_stdio(0);
 	cin.tie(0);
 	cin >> n;
-	solve("1", n);
+	solve("1");
 	cout << ans;
 }
