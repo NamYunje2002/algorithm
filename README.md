@@ -58,3 +58,12 @@ Algorithm Study (23.01 ~ )
 |11725|[트리의 부모 찾기](https://www.acmicpc.net/problem/11725)|[코드](https://github.com/NamYunje2002/algorithm/blob/main/boj/11725.cpp)|
 |1987|[알파벳](https://www.acmicpc.net/problem/1987)|[코드](https://github.com/NamYunje2002/algorithm/blob/main/boj/1987.cpp)|
 |1260|[DFS와 BFS](https://www.acmicpc.net/problem/1260)|[코드](https://github.com/NamYunje2002/algorithm/blob/main/boj/1260.cpp)|
+
+### 7주차 - bfs/dfs(그래프)
+|번호|제목|코드|
+|:---:|:---:|:---:|
+|2331|[반복수열](https://www.acmicpc.net/problem/2331)|[코드](https://github.com/NamYunje2002/algorithm/blob/main/boj/2331.cpp)|
+|1376|[민식우선탐색](https://www.acmicpc.net/problem/1376)|
+|2589|[보물섬](https://www.acmicpc.net/problem/2589)|[코드](https://github.com/NamYunje2002/algorithm/blob/main/boj/2589.cpp)|
+|1525|[퍼즐](https://www.acmicpc.net/problem/1525)|[코드](https://github.com/NamYunje2002/algorithm/blob/main/boj/1525.cpp)|
+|2210|[숫자판 점프](https://www.acmicpc.net/problem/2210)|[코드](https://github.com/NamYunje2002/algorithm/blob/main/boj/2210.cpp)|
