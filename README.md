@@ -4,8 +4,13 @@ Profile
 
 <br>
 
-Algorithm Study (23.01 ~ )
+Algorithm Study (23.01 ~ 23.02)
 ----------------
+### 마지막 - 그리디
+|번호|제목|코드|
+|:---:|:---:|:---:|
+|1202|[보석 도둑](https://www.acmicpc.net/problem/1202)|[코드](https://github.com/NamYunje2002/algorithm/blob/main/boj/1202.cpp)|
+
 ### 1주차 - 분할정복
 |번호|제목|코드|
 |:---:|:---:|:---:|
