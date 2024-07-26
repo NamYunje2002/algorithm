@@ -10,13 +10,11 @@ int main() {
         for(int i = 0; i <= (int)s.size()-(int)p.size(); i++) {
             int chk = 1;
             for(int j = 0; j < (int)p.size(); j++) {
-                cout << s[i+j];
                 if(s[i+j] != p[j]) {
                     chk = 0;
                     break;
                 }
             }
-            cout << '\n';
             if(chk) {
                 ans -= ((int)p.size() - 1);
                 i += ((int)p.size() - 1);
