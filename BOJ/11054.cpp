@@ -17,8 +17,5 @@ int main() {
         }
         ans = max(ans, lis[i]+lds[i]-1);
     }
-    for(int i = 0; i < n; i++) {
-        cout << "i : " << i << ", lis : " << lis[i] << ", lds : " << lds[i] << "\n";
-    }
     cout << ans;
 }
