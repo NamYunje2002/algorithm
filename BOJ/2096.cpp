@@ -29,9 +29,7 @@ int main() {
         for (int j = 0; j < 3; j++) {
             max_dp[0][j] = max_dp[1][j];
             min_dp[0][j] = min_dp[1][j];
-            cout << min_dp[0][j] << ' ';
         }
-        cout << "\n";
     }
     for (int i = 0; i < 3; i++) {
         min_ans = min(min_ans, min_dp[0][i]);
