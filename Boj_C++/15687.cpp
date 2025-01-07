@@ -32,7 +32,7 @@ public:
         return 2 * width + 2 * height;
     }
 
-    bool is_square() {
+    bool is_square() const {
         return width == height;
     }
 
