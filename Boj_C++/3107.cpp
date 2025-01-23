@@ -14,7 +14,6 @@ int main() {
             }
         }
     }
-    cout << "Number count : " << numCnt << "\n";
     int cCnt = 0;
     string num;
     vector<string> v;
